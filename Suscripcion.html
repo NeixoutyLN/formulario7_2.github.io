@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosuscripcion.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="formula">
+        <div >
+            <a href="index.html"><button class="salida" >exit</button></a>
+        </div>
+    <form class="formulario">
+        <input type="hidden" name="remember" value="true">
+
+       
+        
+        <div class="labels">
+            
+            <div>
+                <label for="nombre" class="sr-only">Nombre</label>
+                <input id="nombre" name="nombre" type="text"  placeholder="Nombre completo">
+            
+            
+                <label for="apellido" class="sr-only">Apellido</label>
+                <input id="apellido" name="apellido" type="text" placeholder="Nombre completo">
+            </div>
+            <div>
+                <label for="email" class="sr-only">Correo electrónico</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="Correo electrónico">
+            
+            <label for="genero">Genero</label>
+            <select name="genero" id="genero">
+                <option value="masculino">Seleccione</option>
+            <option value="masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select>
+    </div>
+    <ion-icon name="call-outline"></ion-icon>
+        <label for="numero">Numero de Telefono:</label>
+        <input type="tel" id="numero" name="nmero" pattern="[0-9]{10}" placeholder="Ej 1234567890" required>
+        </div>
+        <div>
+            <button class="resgis"  type="submit" >
+                Registrarse
+            </button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

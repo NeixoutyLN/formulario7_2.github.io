@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    background-color: #00b3a4;
+    color: #000000;
+    padding: 10px 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+.contenedor-viaje{
+padding-inline: 15px;
+}
+h2{
+    font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.section-subtitulo {
+    color:hsl(0, 0%, 0%);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family:  "Montserrat", sans-serif;
+    margin-bottom: 8px;
+    border: #00e1ff solid;
+    border-radius: 50px;
+    background-color: #00e1ff;
+  }
+  .section-subtitulo, .section-titulo{
+  text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.icono img {
+    height: 50px;
+    background-color: #00e1ff;
+    border: #ffffff solid;
+    border-radius: 125px;
+}
+
+.navegador ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navegador ul li a {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.navegador ul li a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+  .titulos {
+        background-image: url("fondo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: hsla(0, 0%, 0%, 0.432);
+        background-blend-mode: overlay;
+        display: grid;
+        place-items: center;
+        min-height: 600px;
+        text-align: center;
+        padding-top: 125px;
+}
+.titulo {
+    margin-bottom: 20px;
+  }
+  
+  .texto{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .popular {
+    padding-block: 60px;
+  }
+  
+  .popular-list,
+  .popular-list>li:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
+  .popular-viaje {
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 430px;
+  }
+  
+  .popular-viaje .viaje-img {
+    height: 100%;
+  }
+  
+  .popular-viaje .viaje-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .popular-viaje .viaje-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: white;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  
+  
+  .popular-viaje .viaje-subtitle {
+    color: hsl(197, 100%, 36%);
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  
+  .popular-viaje .viaje-title {
+    margin-bottom: 5px;
+  }
+  
+  .popular-viaje :is(.viaje-subtitle, .viaje-title)>a {
+    color: inherit;
+  }
+  
+  
+  
